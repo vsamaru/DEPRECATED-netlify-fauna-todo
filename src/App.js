@@ -96,7 +96,7 @@ function List(props) {
                 todo={todo.data}
                 onToggle={handle(toggle)}
                 onDestroy={handle(destroy)}
-                onEdit={edit(todo)}
+                onEdit={edit(todo)} 
                 editing={editing === todo.ref}
                 onSave={val => handle(save(val))()}
                 onCancel={console.log}
